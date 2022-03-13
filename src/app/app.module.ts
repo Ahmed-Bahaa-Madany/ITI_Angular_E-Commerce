@@ -9,6 +9,7 @@ import { CardComponent } from './card/card.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { NotFoundPageComponent } from './not-found-page/not-found-page.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
     CardComponent,
     NavbarComponent,
     SignInComponent,
-    SignUpComponent
+    SignUpComponent,
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,
